@@ -1,5 +1,3 @@
-# Fileupload
-
 <?php
 
 $myfile = fopen("unions/newfile.txt", "w") or die("Unable to open file!");
