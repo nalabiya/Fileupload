@@ -1,6 +1,6 @@
-
-
-
+<p>
+    
+<?php
 
 $myfile = fopen("unions/newfile.txt", "w") or die("Unable to open file!");
 $txt = "test\n";
@@ -22,4 +22,5 @@ echo $txt;
 fwrite($myfile, $txt);
 fclose($myfile);
 
-
+?>
+</p>
